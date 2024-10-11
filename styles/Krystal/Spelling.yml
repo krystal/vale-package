@@ -1,0 +1,7 @@
+extends: spelling
+message: "Is '%s' spelled correctly? Is it missing code formatting?"
+level: error
+dictionaries:
+  - en_GB
+ignore:
+  - ignore/spelling-ignorelist.txt
