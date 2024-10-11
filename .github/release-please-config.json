@@ -5,7 +5,8 @@
       "version-file": "VERSION",
       "changelog-path": "CHANGELOG.md",
       "draft": false,
-      "prerelease": true
+      "prerelease": true,
+      "bump-minor-pre-major": true
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
