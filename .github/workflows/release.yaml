@@ -1,0 +1,103 @@
+---
+name: Release
+on: [push]
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      # Branch that release please should target. This is typically the default
+      # branch, but can be a maintenance branch in some cases.
+      rp_default_branch: ${{ steps.branch.outputs.default_branch }}
+    steps:
+      # If branch name is release-1.2.x or release-1.x treat it as a
+      # maintenenace branch.
+      - name: Determine release please default branch
+        id: branch
+        run: |
+          if [[ "${{ github.ref_name }}" =~ ^release-[0-9]+(\.[0-9]+)?\.x$ ]]; then
+            echo "default_branch=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "default_branch=main" >> "$GITHUB_OUTPUT"
+          fi
+
+  prepare-debug:
+    runs-on: ubuntu-latest
+    needs: [prepare]
+    steps:
+      - run: |
+          echo 'rp_default_branch=${{ needs.prepare.outputs.rp_default_branch }}'
+
+  release-please:
+    runs-on: ubuntu-latest
+    needs: [prepare]
+    if: ${{ github.ref_name == needs.prepare.outputs.rp_default_branch }}
+    # Below list of outputs are an examples of various outputs that are
+    # available. In real world usage, only use those which you need. See output
+    # of the `debug` job for a full list of outputs.
+    outputs:
+      release_created: ${{ steps.release-please.outputs.release_created }}
+      tag_name: ${{ steps.release-please.outputs.tag_name }} # e.g. v1.2.3
+      version: ${{ steps.release-please.outputs.version }} # e.g. 1.2.3
+      major: ${{ steps.release-please.outputs.major }} # e.g. 1
+      minor: ${{ steps.release-please.outputs.minor }} # e.g. 2
+      prs: ${{ steps.release-please.outputs.prs }}
+      all: ${{ toJSON(steps.release-please.outputs) }}
+    steps:
+      - uses: krystal/release-please-manifest-action@v1
+        id: release-please
+        with:
+          app-id: ${{ vars.RELEASE_PLEASE_GITHUB_APP_ID }}
+          private-key: ${{ secrets.RELEASE_PLEASE_GITHUB_APP_PRIVATE_KEY }}
+          default-branch: ${{ needs.prepare.outputs.rp_default_branch }}
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: |
+          echo 'Running tests... all OK'
+
+  # Always runs after release-please to print all the outputs.
+  debug:
+    runs-on: ubuntu-latest
+    needs: [release-please]
+    steps:
+      - name: Print all
+        run: |
+          echo '${{ needs.release-please.outputs.all }}' | jq
+
+  # Only runs if a Release Pull Request was created by release-please.
+  debug-release-pr:
+    runs-on: ubuntu-latest
+    needs: [release-please]
+    if: needs.release-please.outputs.prs
+    steps:
+      - name: Print PRs
+        run: |
+          echo '${{ needs.release-please.outputs.prs }}' | jq
+
+  # Only runs if a release was created by release-please.
+  debug-release:
+    runs-on: ubuntu-latest
+    needs: [release-please]
+    if: needs.release-please.outputs.release_created
+    steps:
+      # Examples of how to access the outputs from the release-please job, so
+      # they can be used to build any assets/artifacts for the release.
+      - name: Print release info
+        run: |
+          echo "Release created: ${{ needs.release-please.outputs.release_created }}"
+          echo "Tag name: ${{ needs.release-please.outputs.tag_name }}"
+          echo "Version: ${{ needs.release-please.outputs.version }}"
+          echo "Major: ${{ needs.release-please.outputs.major }}"
+          echo "Minor: ${{ needs.release-please.outputs.minor }}"
+      # Example of how to move v1 and v1.2 tags to the new release commit. This
+      # is typically only done in very specific types of projects, and is
+      # normally discouraged in general.
+      - name: Update MAJOR and MAJOR.MINOR tags
+        uses: jimeh/update-tags-action@v1
+        with:
+          tags: |
+            v${{ needs.release-please.outputs.major }}
+            v${{ needs.release-please.outputs.major }}.${{ needs.release-please.outputs.minor }}
