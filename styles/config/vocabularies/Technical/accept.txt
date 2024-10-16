@@ -126,6 +126,7 @@ ISP[s]
 Istio
 iwantmyname
 Jamstack
+Jinja
 [Jj]ournaling
 journalctl
 JPG
@@ -149,6 +150,7 @@ libvirt
 Lightsail
 Linkerd
 Linux
+linted
 [Ll]iveness
 [Ll]ockfile[s]?
 [Ll]ookup[s]?
@@ -197,6 +199,7 @@ PgBouncer
 Pgpool
 pgRouting
 plaintext
+playbook(s)
 Plesk
 PNG
 Postgre(s|SQL)
