@@ -3,5 +3,6 @@ message: "Is '%s' spelled correctly? Is it missing code formatting?"
 level: error
 dictionaries:
   - en_GB
+dicpath: config/dictionaries/
 ignore:
   - ignore/spelling-ignorelist.txt
