@@ -150,7 +150,7 @@ libvirt
 Lightsail
 Linkerd
 Linux
-linted
+[Ll]inted
 [Ll]iveness
 [Ll]ockfile[s]?
 [Ll]ookup[s]?
