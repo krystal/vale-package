@@ -199,7 +199,7 @@ PgBouncer
 Pgpool
 pgRouting
 plaintext
-playbook(s)
+[Pp]laybook[s]?
 Plesk
 PNG
 Postgre(s|SQL)
