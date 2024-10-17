@@ -51,13 +51,6 @@ jobs:
           private-key: ${{ secrets.RELEASE_PLEASE_GITHUB_APP_PRIVATE_KEY }}
           default-branch: ${{ needs.prepare.outputs.rp_default_branch }}
 
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run tests
-        run: |
-          echo 'Running tests... all OK'
-
   # Always runs after release-please to print all the outputs.
   debug:
     runs-on: ubuntu-latest
@@ -92,12 +85,3 @@ jobs:
           echo "Version: ${{ needs.release-please.outputs.version }}"
           echo "Major: ${{ needs.release-please.outputs.major }}"
           echo "Minor: ${{ needs.release-please.outputs.minor }}"
-      # Example of how to move v1 and v1.2 tags to the new release commit. This
-      # is typically only done in very specific types of projects, and is
-      # normally discouraged in general.
-      - name: Update MAJOR and MAJOR.MINOR tags
-        uses: jimeh/update-tags-action@v1
-        with:
-          tags: |
-            v${{ needs.release-please.outputs.major }}
-            v${{ needs.release-please.outputs.major }}.${{ needs.release-please.outputs.minor }}
