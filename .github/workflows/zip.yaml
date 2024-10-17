@@ -1,0 +1,46 @@
+name: Create and attach zip to release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+      - 'v*.*'
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Prepare files
+      run: |
+        mkdir -p vale-package
+        cp -r styles vale-package/
+        cp .vale.ini vale-package/
+
+    - name: Zip files
+      run: zip -r vale-package.zip vale-package/
+
+    - name: Get release
+      id: get_release
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const release = await github.repos.getReleaseByTag({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            tag: context.ref.replace('refs/tags/', ''),
+          });
+          return release.data.id;
+        result-encoding: string
+
+    - name: Upload zip to release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.get_release.outputs.upload_url }}
+        asset_path: vale-package.zip
+        asset_name: vale-package.zip
+        asset_content_type: application/zip
