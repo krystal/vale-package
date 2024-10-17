@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/krystal/vale-package/compare/v0.1.1...v0.1.2) (2024-10-17)
+
+
+### Bug Fixes
+
+* **ci:** supply tags ([baa2747](https://github.com/krystal/vale-package/commit/baa2747a431c6f05deb0a27f2ccd01099ede0f88))
+
 ## [0.1.1](https://github.com/krystal/vale-package/compare/v0.1.0...v0.1.1) (2024-10-17)
 
 
