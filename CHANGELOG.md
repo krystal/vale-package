@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/krystal/vale-package/compare/v0.1.3...v0.1.4) (2024-10-17)
+
+
+### Bug Fixes
+
+* repos is under oktokit.rest ([96661ba](https://github.com/krystal/vale-package/commit/96661ba57e77942d801ddea96df289fc89cdb12a))
+
 ## [0.1.3](https://github.com/krystal/vale-package/compare/v0.1.2...v0.1.3) (2024-10-17)
 
 
