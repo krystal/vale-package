@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.1](https://github.com/krystal/vale-package/compare/v0.1.0...v0.1.1) (2024-10-17)
+
+
+### Features
+
+* add en_GB and some Ansible argot ([5a0ef6d](https://github.com/krystal/vale-package/commit/5a0ef6d4ba5677615b42cddde0341bad72aa34f0))
+
+
+### Bug Fixes
+
+* allow a sentence to start with "Linted" ([9d30ecf](https://github.com/krystal/vale-package/commit/9d30ecf352a29d75fe5384de07ee281168bac4fd))
+* allow playbook with optional plural and any casing for first char ([c6cabed](https://github.com/krystal/vale-package/commit/c6cabedf9dd1ea6b7757601ac80d4865de820dd6))
+
 ## 0.1.0 (2024-10-15)
 
 
