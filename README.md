@@ -10,7 +10,7 @@ To get started, add the package to your configuration file (as shown below) and 
 
 ```ini
 StylesPath = styles # Use your normal style path here.
-Packages = https://github.com/krystal/vale-package/releases/latest/download/vale.zip
+Packages = https://github.com/krystal/vale-package/releases/latest/download/vale-package.zip
 ```
 
 ### Add Vale to a project
@@ -19,10 +19,7 @@ Create a `.vale.ini` at the project's root:
 ```ini
 StylesPath = vale-styles  # Location of styles directory
 MinAlertLevel = suggestion # Options: suggestion, warning, error
-Packages = https://github.com/krystal/vale-package/releases/latest/download/vale.zip
-
-[*.md]  # Apply to markdown files
-BasedOnStyles = Krystal
+Packages = https://github.com/krystal/vale-package/releases/latest/download/vale-package.zip
 ```
 
 See [Vale's documentation on packages](https://vale.sh/docs/topics/packages/) for more information.
