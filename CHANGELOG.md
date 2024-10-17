@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/krystal/vale-package/compare/v0.1.5...v0.1.6) (2024-10-17)
+
+
+### Bug Fixes
+
+* **ci:** release zip ([6df3a28](https://github.com/krystal/vale-package/commit/6df3a281712c4b498c8cb0f6070efa41e92f46d6))
+
 ## [0.1.5](https://github.com/krystal/vale-package/compare/v0.1.4...v0.1.5) (2024-10-17)
 
 
