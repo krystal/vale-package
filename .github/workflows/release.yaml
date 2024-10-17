@@ -39,8 +39,8 @@ jobs:
       release_created: ${{ steps.release-please.outputs.release_created }}
       tag_name: ${{ steps.release-please.outputs.tag_name }} # e.g. v1.2.3
       version: ${{ steps.release-please.outputs.version }} # e.g. 1.2.3
-#      major: ${{ steps.release-please.outputs.major }} # e.g. 1
-#      minor: ${{ steps.release-please.outputs.minor }} # e.g. 2
+      major: ${{ steps.release-please.outputs.major }} # e.g. 1
+      minor: ${{ steps.release-please.outputs.minor }} # e.g. 2
       prs: ${{ steps.release-please.outputs.prs }}
       all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
