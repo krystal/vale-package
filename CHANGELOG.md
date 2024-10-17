@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.3](https://github.com/krystal/vale-package/compare/v0.1.2...v0.1.3) (2024-10-17)
+
+
+### Features
+
+* disable E-Prime and Passive ([39a6f4a](https://github.com/krystal/vale-package/commit/39a6f4ad3d27f7d4ec0ef1a5b9bbb30f2e922d37))
+
+
+### Bug Fixes
+
+* **docs:** path to zip ([592fc83](https://github.com/krystal/vale-package/commit/592fc83465b7bd66c5a03e0426c11b275691c41b))
+
 ## [0.1.2](https://github.com/krystal/vale-package/compare/v0.1.1...v0.1.2) (2024-10-17)
 
 
