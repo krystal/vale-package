@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.7](https://github.com/krystal/vale-package/compare/v0.1.6...v0.1.7) (2024-10-18)
+
+
+### Features
+
+* add CF's meaningful link text check ([26758a8](https://github.com/krystal/vale-package/commit/26758a805e0e5e61863c04735c3902eed8881295))
+
+
+### Bug Fixes
+
+* by default include only .md files ([61d05f6](https://github.com/krystal/vale-package/commit/61d05f68727be8ea3a95972d065e46db19dd4e7f))
+
 ## [0.1.6](https://github.com/krystal/vale-package/compare/v0.1.5...v0.1.6) (2024-10-17)
 
 
