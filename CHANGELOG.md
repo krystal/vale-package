@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/krystal/vale-package/compare/v0.1.7...v0.1.8) (2024-11-05)
+
+
+### Bug Fixes
+
+* allow Symfony spelling (capitalised only) ([4f31dfb](https://github.com/krystal/vale-package/commit/4f31dfb9aea2c497a9ea722d5bce0fea8c5b75e2))
+
 ## [0.1.7](https://github.com/krystal/vale-package/compare/v0.1.6...v0.1.7) (2024-10-18)
 
 
