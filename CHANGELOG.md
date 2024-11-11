@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.10](https://github.com/krystal/vale-package/compare/v0.1.9...v0.1.10) (2024-11-11)
+
+
+### Features
+
+* also exclude Readability.FleschKincaid ([39828e4](https://github.com/krystal/vale-package/commit/39828e4ee60b6457e3c29907cfd0a4b0bdacb6fb))
+* reduce the number of readability indexes ([9a6fada](https://github.com/krystal/vale-package/commit/9a6fadaed3f6b7b36dfce313b3271fae794f3890))
+
 ## [0.1.9](https://github.com/krystal/vale-package/compare/v0.1.8...v0.1.9) (2024-11-11)
 
 
