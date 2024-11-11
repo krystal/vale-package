@@ -160,6 +160,7 @@ Logtail
 logtalez
 Lua
 [Mm]akefiles?
+markdownlint
 matplotlib
 M[Bb]ps
 Megaport
