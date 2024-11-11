@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.9](https://github.com/krystal/vale-package/compare/v0.1.8...v0.1.9) (2024-11-11)
+
+
+### Features
+
+* disable alex.ProfanityUnlikely ([f8537e7](https://github.com/krystal/vale-package/commit/f8537e70316ad110efde8700e77e9ffa6e48c916))
+
+
+### Bug Fixes
+
+* allow markdownlint, stylised all lowercase, one word ([1f39391](https://github.com/krystal/vale-package/commit/1f393919ed1a2b69a90f82470af544e224c8f767))
+
 ## [0.1.8](https://github.com/krystal/vale-package/compare/v0.1.7...v0.1.8) (2024-11-05)
 
 
