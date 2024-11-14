@@ -178,6 +178,7 @@ NAT[s]?
 netfilter
 Netplan
 [Nn]amespace
+[Nn]ameserver[s]?
 [Nn]etmask[s]?
 npm
 NumPy
