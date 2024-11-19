@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.11](https://github.com/krystal/vale-package/compare/v0.1.10...v0.1.11) (2024-11-19)
+
+
+### Features
+
+* allow nameserver(s) ([66b7650](https://github.com/krystal/vale-package/commit/66b7650382e69b17237c9ababb3ba4a0afd59257))
+
+
+### Bug Fixes
+
+* **vocab:** allow presigned to be uppercased. ([#33](https://github.com/krystal/vale-package/issues/33)) ([51fde06](https://github.com/krystal/vale-package/commit/51fde06d077fd43708d008070b71f8ed8c89729b))
+
 ## [0.1.10](https://github.com/krystal/vale-package/compare/v0.1.9...v0.1.10) (2024-11-11)
 
 
