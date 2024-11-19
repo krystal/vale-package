@@ -214,8 +214,8 @@ Postgre(s|SQL)
 [Pp]reconfigured?
 [Pp]refill[s]?
 [Pp]repend(|s|ed|ing)
+[Pp]resigned
 preload
-presigned
 Prisma
 psql
 Punycode
