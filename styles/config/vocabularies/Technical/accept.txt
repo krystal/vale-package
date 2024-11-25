@@ -206,6 +206,7 @@ PgBouncer
 Pgpool
 pgRouting
 PUSH
+PUT
 plaintext
 [Pp]laybook[s]?
 Plesk
