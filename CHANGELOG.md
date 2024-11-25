@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.14](https://github.com/krystal/vale-package/compare/v0.1.13...v0.1.14) (2024-11-25)
+
+
+### Bug Fixes
+
+* allow CSS, JS, QEMU ([494967d](https://github.com/krystal/vale-package/commit/494967dc2920d376b564ef424b8a9e2d883b3b72))
+* allow dropdown ([1b6c3f0](https://github.com/krystal/vale-package/commit/1b6c3f0df44ad8dcd1eff11c26c2939696492bdc))
+* allow Golang struct(s) ([48cf657](https://github.com/krystal/vale-package/commit/48cf6573c81c7333d7007c53dd79e95d487c5f55))
+* allow PATCH ([4a26eac](https://github.com/krystal/vale-package/commit/4a26eac021196cbd4ead8b4e1a6c3bc4522845a2))
+* data center is stylised with a space, so we must also allow enUS centers ([c88b6dc](https://github.com/krystal/vale-package/commit/c88b6dc6a81215fefd54493a273db24f69aafd58))
+* ignore etc ([aa10b98](https://github.com/krystal/vale-package/commit/aa10b98a3542fca5e5b673775b2ca835d2eccf1a))
+* make dictionary words case insensitive here ([795781f](https://github.com/krystal/vale-package/commit/795781ff7bd8a332380ad291be7681dbea9bb924))
+
 ## [0.1.13](https://github.com/krystal/vale-package/compare/v0.1.12...v0.1.13) (2024-11-25)
 
 
