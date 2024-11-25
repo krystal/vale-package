@@ -335,6 +335,7 @@ Wikidata
 WordPress
 [Ww]ebpack
 Xeon
+XML
 xrdp
 YAML
 Zombieload
