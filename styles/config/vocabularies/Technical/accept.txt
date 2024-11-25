@@ -68,7 +68,10 @@ data's
 [Dd]enylist[s]?
 [Dd]ev
 Deepspeed
+DELETE
+DHCP
 DigiCert
+DNS
 Dockerfile[s]?
 dockershim
 [Ee]gress(|es|ed|ing)
@@ -96,6 +99,8 @@ Gemfile
 [G]eospatial
 [Gg]eocod(e|er|ing)
 [Gg]ibibyte[s]?
+GB
+GET
 GIF
 GitHub
 Godep
@@ -117,11 +122,13 @@ HPA[s]?
 (HTTPS|https)
 [Hh]yperparameters?
 Icinga
+ID
 [Ii]dempotence
 [Ii]mpactful
 Infiniband
 inode[s]?
 IP[s]?
+IO
 ISP[s]
 Istio
 iwantmyname
@@ -133,6 +140,7 @@ JPG
 JWT
 Kaniko
 Kartograph
+KB
 keyspace
 Kibana
 [Kk]eepalive
@@ -162,6 +170,7 @@ Lua
 [Mm]akefiles?
 markdownlint
 matplotlib
+MB
 M[Bb]ps
 Megaport
 MLOps
@@ -195,15 +204,19 @@ OS
 ownCloud
 Papertrail
 PayPal
+PB
 PDF(|s|'s)?
 pgAdmin
 PgBouncer
 Pgpool
 pgRouting
+PUSH
+PUT
 plaintext
 [Pp]laybook[s]?
 Plesk
 PNG
+POST
 Postgre(s|SQL)
 [Pp]arsable
 [Pp]asscode[s]?
@@ -265,6 +278,7 @@ SVG
 Symfony
 syslog
 systemd
+TB
 Tekton
 Terraform
 TLD[s]
@@ -283,7 +297,7 @@ uninstallation
 UpCloud
 upsert[s]
 URI
-URL
+URL[s]?
 UUID[s]?
 [Uu]nassign(|s|ed)
 [Uu]ncheck
@@ -321,6 +335,7 @@ Wikidata
 WordPress
 [Ww]ebpack
 Xeon
+XML
 xrdp
 YAML
 Zombieload
