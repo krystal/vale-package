@@ -75,6 +75,7 @@ DigiCert
 DNS
 Dockerfile[s]?
 dockershim
+[Dd]ropdown
 [Ee]gress(|es|ed|ing)
 [Ee]thernet
 Enom
