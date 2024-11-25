@@ -56,6 +56,7 @@ cPanel('s)?
 CPU[s]?
 CRD[s]?
 cron
+CSS
 CSIDriver
 CVEs?
 Cyberduck
@@ -137,6 +138,7 @@ Jinja
 [Jj]ournaling
 journalctl
 JPG
+JS
 JWT
 Kaniko
 Kartograph
@@ -235,6 +237,7 @@ Punycode
 PVC
 pydo
 qcow
+QEMU
 Rackspace
 Razer
 recommender
