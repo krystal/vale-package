@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.12](https://github.com/krystal/vale-package/compare/v0.1.11...v0.1.12) (2024-11-25)
+
+
+### Bug Fixes
+
+* trigger release please for PR [#30](https://github.com/krystal/vale-package/issues/30) ([d6ed36a](https://github.com/krystal/vale-package/commit/d6ed36afcb475d86cb2ac2c19ab7a74497529bc4))
+
 ## [0.1.11](https://github.com/krystal/vale-package/compare/v0.1.10...v0.1.11) (2024-11-19)
 
 
