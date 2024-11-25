@@ -68,7 +68,7 @@ data's
 [Dd]enylist[s]?
 [Dd]ev
 Deepspeed
-DELETE
+(?i)DELETE
 DHCP
 DigiCert
 DNS
@@ -100,7 +100,7 @@ Gemfile
 [Gg]eocod(e|er|ing)
 [Gg]ibibyte[s]?
 GB
-GET
+(?i)GET
 GIF
 GitHub
 Godep
@@ -122,7 +122,7 @@ HPA[s]?
 (HTTPS|https)
 [Hh]yperparameters?
 Icinga
-ID
+(?i)ID
 [Ii]dempotence
 [Ii]mpactful
 Infiniband
@@ -210,13 +210,13 @@ pgAdmin
 PgBouncer
 Pgpool
 pgRouting
-PUSH
-PUT
+(?i)PUSH
+(?i)PUT
 plaintext
 [Pp]laybook[s]?
 Plesk
 PNG
-POST
+(?i)POST
 Postgre(s|SQL)
 [Pp]arsable
 [Pp]asscode[s]?
