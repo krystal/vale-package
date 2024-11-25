@@ -99,6 +99,7 @@ Gemfile
 [G]eospatial
 [Gg]eocod(e|er|ing)
 [Gg]ibibyte[s]?
+GB
 GET
 GIF
 GitHub
@@ -139,6 +140,7 @@ JPG
 JWT
 Kaniko
 Kartograph
+KB
 keyspace
 Kibana
 [Kk]eepalive
@@ -168,6 +170,7 @@ Lua
 [Mm]akefiles?
 markdownlint
 matplotlib
+MB
 M[Bb]ps
 Megaport
 MLOps
@@ -201,6 +204,7 @@ OS
 ownCloud
 Papertrail
 PayPal
+PB
 PDF(|s|'s)?
 pgAdmin
 PgBouncer
@@ -274,6 +278,7 @@ SVG
 Symfony
 syslog
 systemd
+TB
 Tekton
 Terraform
 TLD[s]
