@@ -308,7 +308,6 @@ VDI[s]?
 Velero
 Vidhya
 virtualenv
-VM[s]?
 VMware
 vnStat
 VPC[s]?
