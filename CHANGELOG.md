@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.13](https://github.com/krystal/vale-package/compare/v0.1.12...v0.1.13) (2024-11-25)
+
+
+### Features
+
+* allow Krystal ([0dfdfb8](https://github.com/krystal/vale-package/commit/0dfdfb8223716a3f568d847e34d34f59f37de5cb))
+* allowed technical vocab ([#39](https://github.com/krystal/vale-package/issues/39)) ([1600671](https://github.com/krystal/vale-package/commit/1600671717c3ba9a27eeffb98a9b1ee0b5c2332f))
+
+
+### Bug Fixes
+
+* add krystal styles to package ([5a990cc](https://github.com/krystal/vale-package/commit/5a990cc24885b4ae76c0c29ec746a66c4d193ae1))
+* add VM[s]? to technical vocab ([#38](https://github.com/krystal/vale-package/issues/38)) ([d18aff5](https://github.com/krystal/vale-package/commit/d18aff59b2fce883ce9f402d346a4feec9419be1))
+* allow acronyms to be 2 characters and have a trailing `s` ([de4d9b6](https://github.com/krystal/vale-package/commit/de4d9b65d93bc7238cf9b32d7b7864ef8a942370))
+* remove VM from technical vocab ([2919732](https://github.com/krystal/vale-package/commit/2919732022b9808e469d1ab294a60a089d75daa7))
+
 ## [0.1.12](https://github.com/krystal/vale-package/compare/v0.1.11...v0.1.12) (2024-11-25)
 
 
