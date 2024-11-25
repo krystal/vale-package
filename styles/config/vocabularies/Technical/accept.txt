@@ -205,6 +205,7 @@ Ooma
 OS
 ownCloud
 Papertrail
+(?i)PATCH
 PayPal
 PB
 PDF(|s|'s)?
