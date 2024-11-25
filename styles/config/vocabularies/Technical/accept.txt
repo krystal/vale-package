@@ -69,6 +69,7 @@ data's
 [Dd]ev
 Deepspeed
 DELETE
+DHCP
 DigiCert
 DNS
 Dockerfile[s]?
