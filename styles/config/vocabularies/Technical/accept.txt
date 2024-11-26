@@ -124,7 +124,7 @@ HPA[s]?
 (HTTPS|https)
 [Hh]yperparameters?
 Icinga
-(?i)ID
+(?i)ID[s]?
 [Ii]dempotence
 [Ii]mpactful
 Infiniband
