@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.15](https://github.com/krystal/vale-package/compare/v0.1.14...v0.1.15) (2024-11-26)
+
+
+### Bug Fixes
+
+* add REST to technical vocab ([#44](https://github.com/krystal/vale-package/issues/44)) ([6a93cb3](https://github.com/krystal/vale-package/commit/6a93cb3d1a8c8da2491f5834c312e95f8d4b91d6))
+* allow ID or IDs plural ([26e3ac8](https://github.com/krystal/vale-package/commit/26e3ac84a42e523eef4c0234d40651c7991de409))
+
 ## [0.1.14](https://github.com/krystal/vale-package/compare/v0.1.13...v0.1.14) (2024-11-25)
 
 
