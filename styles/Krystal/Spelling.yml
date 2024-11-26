@@ -2,11 +2,14 @@ extends: spelling
 message: |
   Did you really mean '%s'?
 
-  For UI elements, use [bold formatting](https://grafana.com/docs/writers-toolkit/write/style-guide/style-conventions/#bold).
-  The spell checker doesn't check words with bold formatting.
+  You may need code/bold formatting.
 
-  For paths; configuration; user input; code; class, method, and variable names; statuscodes; and console output, use [code formatting](https://grafana.com/docs/writers-toolkit/write/style-guide/style-conventions/#bold).
-  The spell checker doesn't check words with code formatting.
+# Further details:
+#   For UI elements, use bold formatting.
+#
+#  For paths; configuration; user input; code; class, method, and variable names; statuscodes; and console output, use code formatting.
+#
+#  The spell checker doesn't check words with bold or code formatting.
 level: error
 dictionaries:
   - en_GB
