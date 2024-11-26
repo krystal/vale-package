@@ -1,9 +1,10 @@
 [Aa]ccessor[s]?
+[Aa]udiobook[s]?
 [Aa]llowlist[s]?
 [Aa]utocommit
 [Aa]utodeploy
 ACL[s]?
-[Aa]udiobook[s]?
+AI[s]?
 Algolia
 AMI[s]?
 Anchore
@@ -131,6 +132,7 @@ Infiniband
 inode[s]?
 IP[s]?
 IO
+ISO[s]?
 ISP[s]
 Istio
 iwantmyname
