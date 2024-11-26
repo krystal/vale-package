@@ -248,7 +248,7 @@ Redli
 Redsmin
 repo(s|'s)?
 resolver's
-REST
+(?i)REST
 reviewdog
 Rollup
 [Rr]clone
