@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.16](https://github.com/krystal/vale-package/compare/v0.1.15...v0.1.16) (2024-11-26)
+
+
+### Features
+
+* allow AI(s), ISO(s) ([68ec969](https://github.com/krystal/vale-package/commit/68ec9690ec2f82649ca924ec04e319c9219a6246))
+* simplify output for easier grokking ([d482641](https://github.com/krystal/vale-package/commit/d482641805c2fdd4efe839b98e5507ed59d7ee7a))
+
 ## [0.1.15](https://github.com/krystal/vale-package/compare/v0.1.14...v0.1.15) (2024-11-26)
 
 
