@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.18](https://github.com/krystal/vale-package/compare/v0.1.17...v0.1.18) (2024-11-27)
+
+
+### Bug Fixes
+
+* add healthcheck to vocab ([#52](https://github.com/krystal/vale-package/issues/52)) ([fc19aff](https://github.com/krystal/vale-package/commit/fc19aff7acb417e716103fda0a7b4192e683f553))
+
 ## [0.1.17](https://github.com/krystal/vale-package/compare/v0.1.16...v0.1.17) (2024-11-27)
 
 
