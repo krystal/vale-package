@@ -17,6 +17,7 @@ autofill
 Axios
 Backblaze
 balancer's
+[Bb]ackend
 [Bb]ackoff
 [Bb]lackhole(|s|d)
 [Bb]lackholing
@@ -293,6 +294,7 @@ Terraform
 TLD[s]
 tmux
 traceroute
+(?i)TCP
 Trilio
 [Tt]axability
 [Tt]emplated
@@ -327,6 +329,7 @@ UUID[s]?
 [Uu]ntriggered
 [Uu]ntrusted
 [Uu]nversioned
+(?i)UDP
 VDI[s]?
 Velero
 Vidhya
