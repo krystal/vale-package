@@ -120,7 +120,7 @@ Hasura
 HDD[s]?
 Hetzner
 [Hh]ardcod(e|ed|ing)
-[Hh]ealthcheck
+[Hh]ealthcheck[s]?
 [Hh]ostname
 HPA[s]?
 (HTTP|http)
