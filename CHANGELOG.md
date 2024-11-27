@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.17](https://github.com/krystal/vale-package/compare/v0.1.16...v0.1.17) (2024-11-27)
+
+
+### Bug Fixes
+
+* add TCP, UDP and backend to technical vocab ([#50](https://github.com/krystal/vale-package/issues/50)) ([5964fdf](https://github.com/krystal/vale-package/commit/5964fdf620b281249bd540f7d53598c080fed43c))
+
 ## [0.1.16](https://github.com/krystal/vale-package/compare/v0.1.15...v0.1.16) (2024-11-26)
 
 
