@@ -278,6 +278,7 @@ SSD[s]?
 [Ss]erverless
 ssh-copy-id
 [Ss]hortcode[s]?
+[Ss]hortener[s]?
 [Ss]truct[s]?
 [Ss]ubcommand[s]?
 [Ss]ubfolder[s]?
