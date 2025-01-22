@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.19](https://github.com/krystal/vale-package/compare/v0.1.18...v0.1.19) (2025-01-22)
+
+
+### Features
+
+* allow shortener (URL shortener) ([80621b9](https://github.com/krystal/vale-package/commit/80621b9573664ca844b9bec778b852c3d4a79801))
+
 ## [0.1.18](https://github.com/krystal/vale-package/compare/v0.1.17...v0.1.18) (2024-11-27)
 
 
