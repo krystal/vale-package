@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.20](https://github.com/krystal/vale-package/compare/v0.1.19...v0.1.20) (2025-01-24)
+
+
+### Bug Fixes
+
+* syntax error in Gerunds ([7a964cd](https://github.com/krystal/vale-package/commit/7a964cdcd6d6e074e12203b6bf39027892081f98))
+
 ## [0.1.19](https://github.com/krystal/vale-package/compare/v0.1.18...v0.1.19) (2025-01-22)
 
 
