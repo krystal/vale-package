@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.21](https://github.com/krystal/vale-package/compare/v0.1.20...v0.1.21) (2025-07-21)
+
+
+### Features
+
+* add Tailscale and RSA ([461377d](https://github.com/krystal/vale-package/commit/461377d5c5fcdb80bbcab557075d100fc15f3ab4))
+
 ## [0.1.20](https://github.com/krystal/vale-package/compare/v0.1.19...v0.1.20) (2025-01-24)
 
 
