@@ -263,6 +263,7 @@ Rollup
 [Rr]ollout
 [Rr]outable
 [Rr]untime[s]?
+RSA
 rsync
 Rsyslog
 safetensor[s]?
@@ -290,6 +291,7 @@ SVG
 Symfony
 syslog
 systemd
+Tailscale
 TB
 Tekton
 Terraform
