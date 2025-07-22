@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.22](https://github.com/krystal/vale-package/compare/v0.1.21...v0.1.22) (2025-07-22)
+
+
+### Features
+
+* add Katalet ([ffd3d25](https://github.com/krystal/vale-package/commit/ffd3d250de6eb04a6a3bb9aae941f5ebe80e7167))
+
 ## [0.1.21](https://github.com/krystal/vale-package/compare/v0.1.20...v0.1.21) (2025-07-21)
 
 
