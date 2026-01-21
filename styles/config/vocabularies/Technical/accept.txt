@@ -157,6 +157,7 @@ Knative
 Kourier
 Kube
 kubeconfig
+Kubernetes
 Kustomize
 Laravel
 Lerna
