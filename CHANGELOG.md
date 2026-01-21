@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.23](https://github.com/krystal/vale-package/compare/v0.1.22...v0.1.23) (2026-01-21)
+
+
+### Features
+
+* add Kubernetes to technical vocabulary list ([ad02ec9](https://github.com/krystal/vale-package/commit/ad02ec988ff543bb0b82b5196b3b5a7be802df2c))
+
 ## [0.1.22](https://github.com/krystal/vale-package/compare/v0.1.21...v0.1.22) (2025-07-22)
 
 
