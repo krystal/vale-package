@@ -1,11 +1,12 @@
 extends: conditional
 message: "'%s' has no definition."
-link: 
+link:
 level: suggestion
 ignorecase: false
 # Ensures that the existence of 'first' implies the existence of 'second'.
-first: '\b([A-Z]{2,5}[s]?)\b'
-second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{2,5}[s]?)\)'
+first: '\b[A-Z]{2,5}(?=s?\b)'
+# Match the definition, allowing the acronym inside the parens to be singular or plural
+second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{2,5}s?)\)'
 # ... with the exception of these:
 exceptions:
   - API

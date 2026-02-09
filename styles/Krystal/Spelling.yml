@@ -14,5 +14,8 @@ level: error
 dictionaries:
   - en_GB
 dicpath: config/dictionaries/
+filters:
+  # This rule allows for 2-5 character all uppercase acronyms:
+  - '\b[A-Z]{2,5}s?\b'
 ignore:
   - ignore/spelling-ignorelist.txt
