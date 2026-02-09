@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.24](https://github.com/krystal/vale-package/compare/v0.1.23...v0.1.24) (2026-02-09)
+
+
+### Features
+
+* allow pluralised acronym variants ([9dc4b82](https://github.com/krystal/vale-package/commit/9dc4b824278f0090438faf48bd74c09594d021e0))
+* update deps ([2c2551e](https://github.com/krystal/vale-package/commit/2c2551e88d91aff22286ea3ce783892837700bee))
+
 ## [0.1.23](https://github.com/krystal/vale-package/compare/v0.1.22...v0.1.23) (2026-01-21)
 
 
