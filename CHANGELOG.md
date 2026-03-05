@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.25](https://github.com/krystal/vale-package/compare/v0.1.24...v0.1.25) (2026-03-05)
+
+
+### Features
+
+* **dict:** codeowners, Gitops ([4690428](https://github.com/krystal/vale-package/commit/4690428030eec92507a479024c84806a59ae2229))
+
 ## [0.1.24](https://github.com/krystal/vale-package/compare/v0.1.23...v0.1.24) (2026-02-09)
 
 
