@@ -49,6 +49,7 @@ CIDR[s]?
 Citrix
 CLI(|s|'s)?
 CNCF's
+[Cc]odeowner[s]?
 Comodo
 Conda
 conformant
@@ -107,6 +108,7 @@ GB
 (?i)GET
 GIF
 GitHub
+Gitops
 Godep
 govendor
 GPG
